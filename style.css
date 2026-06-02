@@ -307,68 +307,6 @@ h1 {
   font-weight: 600;
 }
 
-.assignment-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-}
-
-.video-frame {
-  margin-top: 12px;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: 1px solid #2c3a63;
-  border-radius: 12px;
-  overflow: hidden;
-  background: linear-gradient(135deg, #141e3d, #1b2a50);
-}
-
-.video-frame iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.assignment-cards {
-  margin-top: 14px;
-  display: grid;
-  gap: 12px;
-}
-
-.assignment-item {
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: rgba(11, 17, 32, 0.8);
-  padding: 14px;
-}
-
-.assignment-item h4 {
-  margin: 0 0 8px;
-}
-
-.assignment-item p {
-  margin: 0 0 10px;
-  color: var(--muted);
-}
-
-.assignment-actions {
-  display: flex;
-  gap: 10px;
-}
-
-.assignment-actions a {
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 5px 12px;
-  font-size: 0.85rem;
-  color: var(--accent);
-}
-
-.assignment-actions a:hover {
-  color: var(--accent-2);
-  border-color: #3b5b8f;
-}
-
 .mini-list,
 .list {
   margin: 12px 0 0;
@@ -464,8 +402,7 @@ h1 {
   .projects-grid,
   .skills-grid,
   .edu-grid,
-  .contact-grid,
-  .assignment-layout {
+  .contact-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -506,8 +443,7 @@ h1 {
   .projects-grid,
   .skills-grid,
   .edu-grid,
-  .contact-grid,
-  .assignment-layout {
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 
